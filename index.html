@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mon Portfolio BTS SIO</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <button class="nav-btn" data-page="about">
+      <i class="fas fa-user"></i>
+      <span>Moi</span>
+    </button>
+    <button class="nav-btn" data-page="cv">
+      <i class="fas fa-file-alt"></i>
+      <span>Mon CV</span>
+    </button>
+    <button class="nav-btn" data-page="projects">
+      <i class="fas fa-diagram-project"></i>
+      <span>Mes réalisations et projets</span>
+    </button>
+    <button class="nav-btn" data-page="contact">
+      <i class="fas fa-envelope"></i>
+      <span>Me contacter</span>
+    </button>
+  </nav>
+
+  <main>
+    <section id="about" class="page active">
+      <div class="top-block">
+        <div class="info">
+          <h1>OBELEMBIA Smitch Chrioni</h1>
+          <p><strong>Âge :</strong> <span id="age"></span> ans</p>
+          <h2>Étudiant BTS SIO</h2>
+        </div>
+        <div class="photo-container">
+          <img src="images/moi.jpg" alt="Ma photo">
+        </div>
+      </div>
+      <div class="block">
+        <p>Étudiant en deuxième année de BTS SIO, je développe actuellement mes compétences en administration systèmes, réseaux et sécurité et en développement web. Curieux d'esprit, capable de m'adapter et d'assimiler rapidement, je recherche une alternance ou un stage afin de mettre en pratique mes connaissances et les renforcer au sein d'une entreprise.</p>
+      </div>
+      <div class="block">
+        <p>Je m'intéresse perticulièrement aux nouvelles technologies informatiquesmes même si mes centres d'intérêt sont divers, notamment l'entrepreneuriat, le développement personnel, le basketball, le dessin et les science en général (métaphysique, physique quantique, biologie, psychologie etc...).</p>
+      </div>
+    </section>
+
+    <section id="cv" class="page">
+      <div class="block">
+  <h2>Formation</h2>
+  <ul>
+    <li>
+      BTS SIO <br>
+      <em>ICFA Montpellier (2025 / 2027 – En cours)</em>
+    </li>
+
+    <li>
+      Marketing Digital <br>
+      <em>MyDigitalSchool Montpellier (2024)</em>
+    </li>
+
+    <li>
+      Baccalauréat série D – Mathématiques, Physique Chimie et Sciences de la nature <br>
+      <em>Lycée privé de Nzeng Ayong (2021 / 2023 – Gabon)</em>
+    </li>
+  </ul>
+</div>
+
+      <div class="block">
+        <h2>Parcours</h2>
+        <ul>
+          <li>Social Média Manageur <br> 
+            <em>THE FRENCH TACOS - Montpellier (Décembre 2024 / Mars 2025)<br>
+              -Gestion de projets digitaux <br>
+              -Communication claire et documentation <br>
+              -Gestion d'outils numériques <br>
+            </em><br>
+          </li>
+          <li>Auto-entrepreneur <br>
+          <em>Crêperie - Gabon (Septembre 2021 / Juillet 2023)<br>
+              -Création et gestion d'une micro-entreprise (6 salariés)<br>
+              -Préparation, vente et livraison de produits <br>
+              -Gestion des opérations (planning, finance, croissance)<br>
+            </em>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>Compétences Techniques</h2>
+        <ul>
+          <li>Développement : HTML, CSS, JS, PHP, Java, SQL</li>
+          <li>Outils : Git, GitHub, VSCode, Figma, WordPress</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>Compétences personnelles</h2>
+        <ul>
+          <li>Rigueur, autonomie, créativité, curiosité, adaptabilité, bonne communication, travail d'équipe, organisation</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>Langues</h2>
+        <ul>
+          <li>Français : langue maternelle</li>
+          <li>Anglais : B2 courant</li>
+          <li>Espagnol : compréhension intermédiaire</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="page">
+      <h1>Mes réalisations et projets</h1>
+      <div class="block">
+        <h2>Portfolio Personnel</h2>
+                <img 
+          src="images/projets/portfolio.png" 
+          alt="Capture d'écran du portfolio personnel"
+          style="width:100%; max-width:700px; display:block; margin:1rem auto; border-radius:8px;"
+        >
+        <p>Conception d’un site web moderne pour présenter mes projets, compétences et expériences.</p>
+        <p><strong>Compétences mobilisées :</strong></p>
+        <ul>
+          <li>Analyser les besoins liés à la présentation d’un profil professionnel</li>
+          <li>Concevoir une interface web claire et structurée</li>
+          <li>Développer une application web en HTML, CSS et JavaScript</li>
+          <li>Mettre en œuvre une navigation dynamique côté client</li>
+          <li>Appliquer des principes d’ergonomie et d’expérience utilisateur</li>
+          <li>Maintenir et faire évoluer une solution web</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>Gestionnaire de cours</h2>
+                <img 
+          src="images/projets/gestionnaire-cours.png" 
+          alt="Capture d'écran du gestionnaire de cours"
+          style="width:100%; max-width:700px; display:block; margin:1rem auto; border-radius:8px;"
+        >
+        <p>Application permettant de visualiser, modifier ou organiser l'emploi du temps d'un établissement en fonction des rôles.</p>
+        <p><strong>Compétences mobilisées :</strong></p>
+        <ul>
+          <li>Analyser un besoin exprimé par un client ou un utilisateur</li>
+          <li>Concevoir et développer une solution applicative</li>
+          <li>Gérer des données à l’aide d’une base de données relationnelle</li>
+          <li>Mettre en place une gestion des droits et des rôles utilisateurs</li>
+          <li>Tester et améliorer une application</li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h2>Jeux simples</h2>
+              <img 
+        src="images/projets/ville-3d.png" 
+        alt="Capture d'écran de la simulation de ville 3D"
+        style="width:100%; max-width:700px; display:block; margin:1rem auto; border-radius:8px;"
+          >
+        <p>Faire circuler des véhicules dans une ville modélisée en 3D, réalisée principalement avec Three.js.</p>
+        <p><strong>Compétences mobilisées :</strong></p>
+        <ul>
+          <li>Développer une application à l’aide d’un langage de programmation</li>
+          <li>Exploiter des bibliothèques et frameworks existants</li>
+          <li>Appliquer une logique algorithmique</li>
+          <li>Gérer des événements et des interactions utilisateur</li>
+          <li>Approfondir ses compétences techniques de manière autonome</li>
+        </ul>
+      </div>
+    </section>
+     <section id="contact" class="page">
+      <h1>Me contacter</h1>
+        <div class="block">
+          <p>Vous pouvez me contacter directement via les coordonnées ci-dessous :</p>
+          <ul>
+            <li><strong>Email :</strong> 
+              <a href="mailto:christsmitch422@gmail.com">christsmitch422@gmail.com</a>
+            </li>
+                        <li><strong>Téléphone :</strong> 
+              <a href="tel:0780875607">07 80 87 56 07</a>
+            </li>
+            <li><strong>Adresse :</strong> Montpellier, France</li>
+          </ul>
+        </div>
+     </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
